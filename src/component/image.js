@@ -35,7 +35,7 @@ const Image = props =>{
             prevSrc={"http://via.placeholder.com/2000x2000?text="+(photoIndex + props.images.length - 1) % props.images.length}
             onCloseRequest={() => setFullImgView(false)}
             onMovePrevRequest={() =>
-              setPhotoIndex(+photoIndex + +props.images.length - +1
+              setPhotoIndex(+photoIndex - +1
               )
             }
             onMoveNextRequest={() =>

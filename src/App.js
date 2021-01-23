@@ -1,14 +1,13 @@
 
 import './App.css';
+import College from './component/college';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+       <College />
+        
         
       </header>
     </div>
